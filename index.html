@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+                  <div class="sheet">
+                    <h1>Stone . Paper . Scissor</h1>
+                    <div class="sub">Best of Endless-first to Blink Loses Nothing</div>
+                     <div class="score">
+                            <div>You<span id="you-score">0</span></div>
+                            <div>Ties<span id="tie-score">0</span></div>
+                            <div>Machine<span id="tie-score">0</span></div>
+                    </div>
+                                                 
+                     <div class="arena">
+                        <div class="slot">
+                            <div class="slot-label">You</div>
+                            <div  class="slot-box" id="you-box">?</div>
+                        </div>
+                        <div class="vs">Vs</div>
+                        <div class="slot">
+                            <div class="slot-label">Machine</div>
+                            <div class="slot-box" id="cpu-box">?</div>
+                        </div>
+                     </div>
+
+                     <div class="verdict" id="verdict"></div>
+
+                     <div class="choices">
+                     <button class="choice-btn" data-choice="stone" arial-label="Stone">🪨</button>
+                     <button class="choice-btn" data-choice="paper" arial-label="Paper">📄</button>
+                     <button class="choice-btn" data-choice ="scissor" arial-label="Scissors">✂️</button> 
+                     </div>
+
+                     <div class="reset-row">
+                        <button class="reset-btn" id="reset">Repeat scores</button>
+                     </div>
+                  </div>
+
+                  <script src="script.js"></script>
+</body>
+</html>                       
