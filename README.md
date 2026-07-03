@@ -31,4 +31,3 @@ Customization
 
 Browser support
    works in any modern Browser (Chrome,firefox,safari,Edge).user Standard DOM APIs only - no polyfills required.
-
