@@ -211,6 +211,13 @@ h1{
     outline-offset:2px;
 }
 
-@media (prefers-reduced-motion:reduce){
-    .slot-box.shake{animation:none;}
+
+.slot-box.shake{
+    animation:shake 0.4s ease-in-out infinite;
+}
+
+@keyframes shake{
+    0%,100%{transform:rotate(0deg);}
+    50%{ transform:rotate(-8deg);}
+    75%{transform:rotate(8deg);}
 }
